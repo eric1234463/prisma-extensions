@@ -1,8 +1,21 @@
 {
   "name": "prisma-custom-extensions",
   "version": "1.0.0",
-  "description": "A Custom Prisma Client Extension for Daliy Usage",
+  "description": "A Custom Prisma Client Extension for Daily Usage",
   "main": "index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist/**/*",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
     "test": "jest"
   },
