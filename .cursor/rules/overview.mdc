@@ -1,0 +1,7 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+This Project is a custom client extends use to help developers easy to use prisma client with some extension
